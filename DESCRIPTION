@@ -7,5 +7,5 @@ Author: Noam Ross
 Maintainer: Noam Ross <noam.ross@gmail.com>
 Description: This package uses the fine and salty ARRPI.
 Imports:
-    httr
+    utils
 License: MIT
