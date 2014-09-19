@@ -1,0 +1,14 @@
+# arrr!
+
+See you landlubbers, this package uses the salty 
+[ARRPI](http://isithackday.com/arrpi.php) to forge yer miserly words into
+the finest pirate-speak.
+
+```
+install.packages('devtools')
+devtools::install_github('noamross/arrr')
+library(arrr)
+arrr("Hello, friend");
+arrr("Should I go right or left to get to the port?")
+arrr("My friends want beer.")
+```

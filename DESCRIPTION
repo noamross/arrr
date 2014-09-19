@@ -1,0 +1,11 @@
+Package: arrr
+Type: Package
+Title: Translates ye lubberly words
+Version: 0.0.1
+Date: 2014-09-19
+Author: Noam Ross
+Maintainer: Noam Ross <noam.ross@gmail.com>
+Description: This package uses the fine and salty ARRPI.
+Imports:
+    httr
+License: MIT
