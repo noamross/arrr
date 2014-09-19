@@ -4,5 +4,6 @@
 #' @param text Yer lubberly words
 arrr = function(text) {
   URL = paste0('http://isithackday.com/arrpi.php?text=', URLencode(text))
-  return(content(GET(URL), as="text"))
+  out = content(GET(URL), as="text")
+  return(sub("wench", "lass", out))
 }
