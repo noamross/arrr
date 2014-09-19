@@ -13,9 +13,28 @@ devtools::install_github('noamross/arrr')
 
 Set ye sails:
 
-```{r}
+
+```r
 library(arrr)
 arrr("Hello, friend");
+```
+
+```
+## [1] "Ahoy, mate"
+```
+
+```r
 arrr("Should I go right or left to get to the port?")
+```
+
+```
+## [1] "Should I go starboard or port to get to ye port?"
+```
+
+```r
 arrr("My friends want beer.")
+```
+
+```
+## [1] "My crew want grog."
 ```
