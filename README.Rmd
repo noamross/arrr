@@ -6,7 +6,7 @@ the finest pirate-speak.
 
 To bring ye package into port (install):
 
-```
+```{r}
 install.packages('devtools')
 devtools::install_github('noamross/arrr')
 ```
